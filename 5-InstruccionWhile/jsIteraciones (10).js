@@ -1,16 +1,14 @@
 function mostrar()
 {
+mostrar=prompt("escribi algo");
+mostrar2=prompt("escribi otra cosa");
+document.write(mostrar);
+document.write(mostrar2);
 
-	var contador=0;
-	// declarar variables
-	
-	var respuesta='si';
 
-	while(respuesta!='no')
-	{
-		
+
+
 	
-	}
 
 
 
