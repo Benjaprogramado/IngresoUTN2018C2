@@ -1,6 +1,8 @@
 function mostrar()
 {
-//Tener en cuenta que si inicializo la variable negativo con 0 entonces todas las multiplicaciones me darian 0.
+/*Tener en cuenta que si inicializo la variable negativo con 0 entonces todas las multiplicaciones me darian 0.
+Tambien recordar que el  do-while se puede usar de forma que todo se ejecute al menos una vez, en cuyo caso 
+ya no precisaria declararle de entrada un valor "si" a la variable respuesta.*/
 
 	var positivo=0;
 	var negativo=1;
