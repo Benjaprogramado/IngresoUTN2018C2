@@ -15,17 +15,17 @@ var precio =35;
 var precioFinal;
 var descuento;
 var marca = document.getElementById("Marca").value;
-var cantidad = document.getElementById("Cantidad").value;
+var cantidad = parseInt(document.getElementById("Cantidad").value);
 
 
 switch (cantidad) {
 
-    case "1":
-    case "2":
-    descuento=1
+    case 1:
+    case 2:
+    descuento=0
     break;
 
-    case "3":
+    case 3:
       if (marca=="ArgentinaLuz"){
           descuento=15;    
       }
@@ -38,7 +38,7 @@ switch (cantidad) {
       }
     break;
 
-    case"4":
+    case 4:
       if (marca =="ArgentinaLuz" || marca == "FelipeLamparas"){
           descuento = 25;
 
@@ -48,7 +48,7 @@ switch (cantidad) {
       }
     break;
 
-    case "5":
+    case 5:
       if (marca=="ArgentinaLuz"){
 
           descuento = 40;
@@ -63,7 +63,7 @@ switch (cantidad) {
       descuento=50;
 
       break;
-
+}
 
 precioFinal = (precio*cantidad)-[(precio*cantidad*descuento)/100];
 
@@ -89,7 +89,7 @@ else{
 
 
 
-}
+
 
 
 
