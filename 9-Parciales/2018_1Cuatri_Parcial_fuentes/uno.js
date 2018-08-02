@@ -6,10 +6,8 @@ var ancho;
 var largo;
 var perímetro;
 
-ancho= prompt ("Ingrese Ancho");
-ancho=parseInt(ancho);
-largo= prompt ("Ingrese Largo");
-largo=parseInt(largo);
+ancho= parseInt(prompt ("Ingrese Ancho"));
+largo= parseInt(prompt ("Ingrese Largo"));
 perímetro= ancho+largo+ancho+largo;
 
 alert ("El perímetro del rectángulo es "+perímetro)
