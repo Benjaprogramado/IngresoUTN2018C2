@@ -1,10 +1,20 @@
 function mostrar()
 {
 
+ 
+        
+    for(   ;    ;   ){
+    
+        pedirNum = parseInt(prompt("Ingrese un número:"));
+
+    if(pedirNum==9){
+
+        break
+    }
+    }
 
 
 
 
-for(pedido=parseInt(prompt("Ingrese un número")); pedido=9; )
 
 }//FIN DE LA FUNCIÓN
