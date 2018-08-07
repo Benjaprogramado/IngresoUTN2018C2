@@ -4,24 +4,21 @@ var num1;
 var num2;
 var resultado;
 
-num1 = prompt ("Ingrese el primer Número");
-num2 = prompt ("Ingrese el segundo Número");
+num1 = parseInt(prompt ("Ingrese el primer Número"));
+num2 = parseInt(prompt ("Ingrese el segundo Número"));
 
 if (num1 == num2) {
 
-    alert ("El resultado es "+num1+num2);
+    alert ("El resultado es "+num1+num2.toString());
 }
 
-else if( parseInt(num1) > parseInt(num2)) {
+else if(num1>num2) {
 
     alert ("El resultado es "+(num1-num2));
 } 
 else{
 
-
-num1=parseInt(num1);
-num2=parseInt(num2);
-resultado= num1+num2;
+  resultado= num1+num2;
 
     
 
